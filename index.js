@@ -3,9 +3,3 @@ function logo() {
 }
 
 
-function seeacr() {
-  document.getElementById('t').innerHTML = "Smart Personal Identification Operations";
-}
-function hideacr() {
-  document.getElementById('t').innerHTML = "Spio";
-}
