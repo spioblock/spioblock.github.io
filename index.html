@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
 
 <link rel = "stylesheet" href ="\spio.css">
+<script src="\index.js"></script>
 <title>Spio</title>
 <br>
 </head>
@@ -13,11 +14,6 @@
 <map name = "#logo">
 <area shape="rect" coords="7,428,448,6" onclick="logo()">
 </map>
-<script>
-function logo() {
-  alert('You clicked spio logo');
-}
-</script>
 
 <header><h1 id="t"style="font-size:10vw;">Spio<h1></header>
 
@@ -27,16 +23,6 @@ function logo() {
 <div>
 <button onclick="seeacr()">See the Spio</button>
 <button onclick="hideacr()">Hide the Spio</button>
-<script>
-function seeacr() {
-  document.getElementById('t').innerHTML = "Smart Personal Identification Operations";
-}
-function hideacr() {
-  document.getElementById('t').innerHTML = "Spio";
-}
-</script>
-
-
 </div>
 </body>
 </html>
