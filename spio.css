@@ -1,7 +1,9 @@
-body {background-color:lightgreen}
+body {
+  background-color:lightgreen;
+  }
 h1 {
   text-align: center;
-  font-style: italic;
+
   text-decoration: underline;
   }
 h2 {
