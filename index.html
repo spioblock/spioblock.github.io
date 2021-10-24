@@ -3,9 +3,28 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
 
-<link rel = "stylesheet" href ="\spio.css">
+<link rel = "stylesheet" href ="C:\Users\jojij\Documents\spio\spio.css">
 <title>Spio</title>
 <br>
+</head>
+<body>
+
+<img src="\logo.jpg" style= "width:100px;height:100px;" float = "left" usemap = "#logo">
+<map name = "#logo">
+<area shape="rect" coords="7,428,448,6" onclick="logo()">
+</map>
+<script>
+function logo() {
+  alert('You clicked spio logo');
+}
+</script>
+
+<header><h1 id="t"style="font-size:10vw;"><samp>Spio</samp></h1></header>
+
+<h2 style="background-color:yellow;"><samp>This is the first page of spio</samp></h2>
+<p style="background-color:powderblue;"><samp>Spio is the acronym for <b style="font-size:120%">Smart Personal Identification Operations</b></p></samp>
+<hr>
+<div>
 <button onclick="seeacr()">See the Spio</button>
 <button onclick="hideacr()">Hide the Spio</button>
 <script>
@@ -16,23 +35,8 @@ function hideacr() {
   document.getElementById('t').innerHTML = "Spio";
 }
 </script>
-</head>
-<body>
-<h1 id="t"style="font-size:10vw;">Spio</h1>
-<h2 style="background-color:yellow;">This is the first page of spio</h2>
-<p style="background-color:powderblue;">Spio is the acronym for <b style="font-size:120%">Smart Personal Identification Operations</b></p>
-<hr>
-<div>
-<!-- <img src="C:\Users\jojij\Documents\spio\Untitled.jpg" style= "max-width = 100%;height=auto;" usemap = "#logo">
-<map name = "#logo">
-<area shape="rect" coords="59,40,491,479" onclick="logo()">
-</map>
-<script>
-function logo() {
-  alert('You clicked spio logo');
-}
-</script>
--->
+
+
 </div>
 </body>
 </html>
